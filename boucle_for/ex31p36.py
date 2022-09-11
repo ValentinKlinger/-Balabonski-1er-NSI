@@ -1,16 +1,16 @@
 # écrire un programme Turtle demandant à l'utilisateur un entier n et traçant un escalier à n marches.
 
-from turtle import *
+import turtle
 
 n = int(input("combien de marches? \n")
-up()
-goto(-200, -200)
+turtle.up()
+turtle.goto(-200, -200)
 
-down()
+turtle.down()
 for i in range(n):
-	left(90)
-	forward(50)
-	right(90)
-	forward(50)
+	turtle.left(90)
+	turtle.forward(50)
+	turtle.right(90)
+	turtle.forward(50)
 
-mainloop()
+turtle.mainloop()

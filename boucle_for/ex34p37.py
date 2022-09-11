@@ -1,25 +1,25 @@
 # écrire un programme traçant une route en perspective.
 
-from turtle import *
+import turtle
 
-up()
-goto(0, -200)
-down()
+turtle.up()
+turtle.goto(0, -200)
+turtle.down()
 for i in range(10, 0, -1):
-	width(i)
-	goto(xcor(), ycor() + 40)
-up()
+	turtle.width(i)
+	turtle.goto(xcor(), ycor() + 40)
+turtle.up()
 
-goto(-160, -200)
-down()
+turtle.goto(-160, -200)
+turtle.down()
 for i in range(10, 0, -1):
-	width(i)
-	goto(xcor() + 15, ycor() + 40)
-up()
+	turtle.width(i)
+	turtle.goto(xcor() + 15, ycor() + 40)
+turtle.up()
 
-goto(160, -200)
-down()
+turtle.goto(160, -200)
+turtle.down()
 for i in range(10, 0, -1):
-	width(i)
-	goto(xcor() - 15, ycor() + 40)
-mainloop()
+	turtle.width(i)
+	turtle.goto(xcor() - 15, ycor() + 40)
+turtle.mainloop()

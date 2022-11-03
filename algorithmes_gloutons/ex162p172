@@ -1,0 +1,22 @@
+Bin packing : stratégie gloutonne. Une stratégie gloutonne consiste à 
+considérer les objets dans l'ordre, et pour chaqu'un décider d'une personne 
+à qui les confier. Pour cela, les personnes ont elles-même un ordre, et on
+confie l'objet à la permière ayant encore la capacité de le prendre. 
+Si personne ne peut prendre l'objet, on dira que la stratégie à échoué.
+Appliquer cette stratégie à la situation de l'exercice 161 &vec deux ordres suivants pour les objets.
+
+1. [6, 3, 4, 2, 4, 3, 1, 5, 2]
+
+2. [6, 3, 4, 2, 3, 4, 1, 5, 2]
+
+la première liste réussi :
+première personne : 6 + 3 + 1
+deuxième personne : 4 + 2 + 4
+troisième personne : 3 + 5 + 2
+
+le seconde échoue :
+première personne : 6 + 3 + 1
+deuxième personne : 4 + 2 + 3
+troisième personne : 4 + 1 + 5
+
+il reste 2 kg

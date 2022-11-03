@@ -1,0 +1,31 @@
+Problème du sac à dos 
+Arsène L. à devant lui un ensemble d'objets de valeurs et de poids variés.
+Il dispose d'un sac à dos dans lequel il ne peut prendre qu'une partie 
+des objets, en essayant de maximiser la valeur totale emportée.
+Cependant, il ne pourra emporter le sac que si le poids total ne dépasse pas
+10 kilogrammes. Dans chacune des situations suivantes,
+indiquer les différentes combinaisons qui peuvent être formées 
+et les valeurs correspondantes.
+
+1. 
+AD = 5300
+BCD = 7500
+
+2.
+AC = 7800
+AD = 5300
+BCD = 7000
+
+3.
+AE = 8900
+BD = 11200
+BE = 8000
+CDE = 10300
+
+4. 
+AD = 11800
+AFE = 11900
+BC = 12000
+BDF = 10100
+BEF = 10000
+CDEF = 10300
